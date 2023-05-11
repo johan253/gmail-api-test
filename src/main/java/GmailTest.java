@@ -21,7 +21,7 @@ import java.util.Collections;
 import java.util.List;
 
 /* class to demonstrate use of Gmail list labels API */
-public class GmailQuickstart {
+public class GmailTest {
   /**
    * Application name.
    */
@@ -52,7 +52,7 @@ public class GmailQuickstart {
   private static Credential getCredentials(final NetHttpTransport HTTP_TRANSPORT)
       throws IOException {
     // Load client secrets.
-    InputStream in = GmailQuickstart.class.getResourceAsStream(CREDENTIALS_FILE_PATH);
+    InputStream in = GmailTest.class.getResourceAsStream(CREDENTIALS_FILE_PATH);
     if (in == null) {
       throw new FileNotFoundException("Resource not found: " + CREDENTIALS_FILE_PATH);
     }
