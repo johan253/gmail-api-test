@@ -6,7 +6,7 @@ build
 
 # Ignore json credentials
 
-.json
+credentials.json
 
 # Ignore tokens
 
